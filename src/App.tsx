@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/me'>
       <div className="min-h-screen bg-gray-50">
         <Navbar />
         <main className="container mx-auto px-4 py-8">
